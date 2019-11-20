@@ -1,4 +1,4 @@
-FROM deepimpact/jessie-nginx-openjdk-letsencrypt:1.0.3
+FROM deepimpact/jessie-nginx-openjdk-letsencrypt:1.1.0
 
 RUN   apt-get update \
    && apt-get install -y python-pip libyaml-dev python-dev \
